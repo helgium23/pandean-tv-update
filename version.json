@@ -2,6 +2,6 @@
   "versionCode": 2,
   "versionName": "1.0.1",
   "forceUpdate": true,
-  "releaseNotes": "• Perbaikan pemutaran saluran RCTI, MNCTV, GTV, iNews, dan SCTV\n• Peningkatan kecepatan loading streaming (Server 1 Utama)\n• Kompatibilitas penuh HLS & DASH player",
+  "releaseNotes": "- Perbaikan pemutaran saluran siaran RCTI, MNCTV, GTV, iNews, dan SCTV\n- Peningkatan kecepatan loading streaming (Server 1 Utama)\n- Kompatibilitas penuh HLS & DASH player",
   "apkUrl": "https://github.com/helgium23/pandean-tv-update/releases/latest/download/PandeanTV.apk"
 }
