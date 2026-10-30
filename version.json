@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.0",
+  "versionCode": 4,
+  "versionName": "1.2.0",
   "forceUpdate": true,
-  "releaseNotes": "• Navigasi remote diperbarui: Fokus list merah otomatis langsung ke baris teratas & channel pertama saat ganti kategori\n• Teks identitas diperbarui: TV KHUSUS WARGA PANDEAN\n• Perbaikan pemutaran saluran MOVIES & KIDS (ClearKey DRM & HLS Full HD)\n• Pembersihan channel tidak penting agar aplikasi jauh lebih ringan & responsif di Smart TV / STB\n• Saluran Indonesia tetap stabil & lancar",
+  "releaseNotes": "• Sinkronisasi Saluran Otomatis & Dinamis: URL siaran diperbarui otomatis dari server GitHub Pandean TV tanpa perlu update APK lagi\n• Master Saluran Terpadu: Seluruh kategori (Indonesia, Sports, Movies, Kids, Knowledge) kini tersinkron rapi & multi-server\n• Dukungan Offline: Cadangan saluran bawaan tetap dapat ditonton walau tanpa koneksi internet\n• Pembaruan performa & stabilitas navigasi Android TV",
   "apkUrl": "https://github.com/helgium23/pandean-tv-update/releases/latest/download/PandeanTV.apk"
 }
