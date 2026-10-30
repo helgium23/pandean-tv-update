@@ -1,7 +1,7 @@
 {
-  "versionCode": 4,
-  "versionName": "1.2.0",
+  "versionCode": 5,
+  "versionName": "1.2.1",
   "forceUpdate": true,
-  "releaseNotes": "• Sinkronisasi Saluran Otomatis & Dinamis: URL siaran diperbarui otomatis dari server GitHub Pandean TV tanpa perlu update APK lagi\n• Master Saluran Terpadu: Seluruh kategori (Indonesia, Sports, Movies, Kids, Knowledge) kini tersinkron rapi & multi-server\n• Dukungan Offline: Cadangan saluran bawaan tetap dapat ditonton walau tanpa koneksi internet\n• Pembaruan performa & stabilitas navigasi Android TV",
+  "releaseNotes": "• Dukungan Luas Android 5.0 (Lollipop) & 6.0 (Marshmallow): Aplikasi kini dapat diinstal dengan lancar pada seluruh STB lawas (ZTE B860H V1/V2, HG680-P, dll.) tanpa kendala parse error\n• Sinkronisasi Saluran Otomatis & Dinamis via GitHub\n• Pembaruan performa, kompatibilitas, dan stabilitas navigasi TV",
   "apkUrl": "https://github.com/helgium23/pandean-tv-update/releases/latest/download/PandeanTV.apk"
 }
