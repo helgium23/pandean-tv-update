@@ -7,32 +7,25 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://stream.icanplay.my.id/play/rctiplus.m3u8",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=1&type=drm&token=KITKATTV",
         "headers": {
-          "Referer": "https://www.rctiplus.com/",
-          "Origin": "https://www.rctiplus.com",
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=1&type=drm&token=KITKATTV"
-      },
-      {
-        "label": "Server 3 (Cadangan 2)",
         "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/ac934bd649dc47f699f793634de01635/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=201&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=201&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        }
       }
     ]
   },
@@ -44,22 +37,23 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
+        "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=8&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
         "url": "https://vidio123.mikrofast.web.id/vidio/204/index.mpd",
         "headers": {
           "Referer": "https://m.vidio.com/",
           "Origin": "https://m.vidio.com",
           "User-Agent": "Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
         }
-      },
-      {
-        "label": "Server 2 (Cadangan 1)",
-        "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=8&type=drm&token=KITKATTV"
       }
     ]
   },
@@ -71,11 +65,13 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://vidio123.mikrofast.web.id/vidio/205/index.mpd",
+        "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=9&type=drm&token=KITKATTV",
         "headers": {
-          "Referer": "https://m.vidio.com/",
-          "Origin": "https://m.vidio.com",
-          "User-Agent": "Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
       },
       {
@@ -89,13 +85,12 @@
       },
       {
         "label": "Server 3 (Cadangan 2)",
-        "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd",
+        "url": "https://vidio123.mikrofast.web.id/vidio/205/index.mpd",
         "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=9&type=drm&token=KITKATTV"
+          "Referer": "https://m.vidio.com/",
+          "Origin": "https://m.vidio.com",
+          "User-Agent": "VidioPlayer/6.41.11"
+        }
       }
     ]
   },
@@ -107,32 +102,25 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://stream.icanplay.my.id/play/mnctvplus.m3u8",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=2&type=drm&token=KITKATTV",
         "headers": {
-          "Referer": "https://www.rctiplus.com/",
-          "Origin": "https://www.rctiplus.com",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=2&type=drm&token=KITKATTV"
-      },
-      {
-        "label": "Server 3 (Cadangan 2)",
         "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/52f468e951c14c6ba80d4d31c833fce6/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=203&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=203&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        }
       }
     ]
   },
@@ -144,32 +132,25 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://stream.icanplay.my.id/play/gtvplus.m3u8",
+        "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=3&type=drm&token=KITKATTV",
         "headers": {
-          "Referer": "https://www.rctiplus.com/",
-          "Origin": "https://www.rctiplus.com",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=3&type=drm&token=KITKATTV"
-      },
-      {
-        "label": "Server 3 (Cadangan 2)",
         "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b2c774f2a6fc4cd1917459335d8231df/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=202&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=202&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        }
       }
     ]
   },
@@ -177,26 +158,18 @@
     "id": "tivora_seed_indonesia_inews",
     "name": "iNews",
     "category": "INDONESIA",
-    "logoUrl": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",
+    "logoUrl": "https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/INEWS.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://stream.icanplay.my.id/play/inewsplus.m3u8",
-        "headers": {
-          "Referer": "https://www.rctiplus.com/",
-          "Origin": "https://www.rctiplus.com",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-      },
-      {
-        "label": "Server 2 (Cadangan 1)",
         "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/34d8dd29eb1d4eba931c7c5ab5f4be09/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=4&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=4&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        }
       }
     ]
   },
@@ -211,27 +184,26 @@
         "url": "https://transmedia.mikrofast.my.id/transtv/transtv/index.m3u8?direct=1",
         "headers": {
           "Referer": "https://20.detik.com/",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          "Origin": "https://20.detik.com",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
         "url": "https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8",
         "headers": {
-          "Referer": "https://www.cnbcindonesia.com/",
-          "Origin": "https://20.detik.com",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+          "Referer": "https://www.cnbcindonesia.com/"
         }
       },
       {
         "label": "Server 3 (Cadangan 2)",
         "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=6&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=6&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
+        }
       }
     ]
   },
@@ -239,50 +211,33 @@
     "id": "tivora_seed_indonesia_trans_7",
     "name": "Trans 7",
     "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/trans-7-id.png",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/trans7-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
         "url": "https://transmedia.mikrofast.my.id/transtv/trans7/index.m3u8?direct=1",
         "headers": {
           "Referer": "https://20.detik.com/",
+          "Origin": "https://20.detik.com",
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://maxstreamtv.icanplay.my.id/stream/0_a7dno7wk.mpd",
+        "url": "https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8",
         "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv.icanplay.my.id/drm?id=0_a7dno7wk"
+          "Referer": "https://www.cnbcindonesia.com/"
+        }
       },
       {
         "label": "Server 3 (Cadangan 2)",
-        "url": "https://live.eu-north-1a.cf.dmcdn.net/sec2(uL0jVIjGWU8cflXHuuzz0VlAKNR8nIsg1xteJU05Bu9wdoQ64Q9lE3yfp_-96OZ3v-XI9JwfWQjVI2Y93zSLnHEG_edfnUBfdFEpP4_Pki1nBQJcRyj7GHpY4ZfxfACF)/dm/3/x8qckyq/d/live-720.m3u8",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
-        }
-      },
-      {
-        "label": "Server 4 (Cadangan 3)",
-        "url": "https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8",
-        "headers": {
-          "Referer": "https://www.cnbcindonesia.com/",
-          "Origin": "https://20.detik.com",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-        }
-      },
-      {
-        "label": "Server 5 (Cadangan 4)",
         "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=7&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=7&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
+        }
       }
     ]
   },
@@ -299,12 +254,12 @@
       {
         "label": "Server 2 (Cadangan 1)",
         "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=19&type=drm&token=KITKATTV"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=19&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
+        }
       }
     ]
   },
@@ -316,39 +271,29 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://beetv.my.id/xstreamx/vd.m3u8?ch=antv",
+        "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=10&type=drm&token=KITKATTV",
         "headers": {
-          "Referer": "http://www.vidio.com/",
-          "Origin": "http://www.vidio.com",
-          "User-Agent": "VidioPlayer/6.31.6"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd",
+        "url": "https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=782",
         "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=10&type=drm&token=KITKATTV"
+          "Referer": "https://m.vidio.com/",
+          "Origin": "https://m.vidio.com",
+          "User-Agent": "VidioPlayer/6.41.11"
+        }
       },
       {
         "label": "Server 3 (Cadangan 2)",
         "url": "https://vidio123.mikrofast.web.id/vidio/782/index.mpd",
         "headers": {
           "Referer": "https://m.vidio.com/",
-          "Origin": "https://m.vidio.com",
-          "User-Agent": "Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
-        }
-      },
-      {
-        "label": "Server 4 (Cadangan 3)",
-        "url": "https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=782",
-        "headers": {
-          "Referer": "https://m.vidio.com/",
-          "Origin": "https://m.vidio.com",
-          "User-Agent": "VidioPlayer/6.41.11"
+          "Origin": "https://m.vidio.com"
         }
       }
     ]
@@ -357,7 +302,7 @@
     "id": "tivora_seed_indonesia_tvone",
     "name": "TVOne",
     "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/tv-one-id.png",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/tvone-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
@@ -372,7 +317,7 @@
     "id": "tivora_seed_indonesia_mdtv",
     "name": "MDTV",
     "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/mdtv-id.png",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/net-tv-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
@@ -381,18 +326,11 @@
       {
         "label": "Server 2 (Cadangan 1)",
         "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/3aefa03d32954b678e5faab6daa04b58/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=23&type=drm&token=KITKATTV"
-      },
-      {
-        "label": "Server 3 (Cadangan 2)",
-        "url": "https://wahyu1ptv.pages.dev/MDTV-HD.m3u8",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=23&type=drm&token=KITKATTV",
         "headers": {
-          "User-Agent": "android-R+"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
         }
       }
     ]
@@ -429,20 +367,17 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8",
+        "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/b0eebcecfb12424cb5f3c3cdb239f3c1/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=11&type=drm&token=apistech",
         "headers": {
-          "Referer": "http://www.dens.tv/"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
         }
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/b0eebcecfb12424cb5f3c3cdb239f3c1/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=11&type=drm&token=apistech"
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8"
       }
     ]
   },
@@ -458,59 +393,7 @@
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8"
-      },
-      {
-        "label": "Server 3 (Cadangan 2)",
         "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
-      }
-    ]
-  },
-  {
-    "id": "tivora_seed_indonesia_cnn_indonesia",
-    "name": "CNN Indonesia",
-    "category": "INDONESIA",
-    "logoUrl": "https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://video.detik.com/livecnn/smil:cnntv/chunklist_w2073324730_b384000_sleng.m3u8"
-      }
-    ]
-  },
-  {
-    "id": "tivora_seed_indonesia_cnbc_indonesia",
-    "name": "CNBC Indonesia",
-    "category": "INDONESIA",
-    "logoUrl": "https://cdn.cnbcindonesia.com/cnbc/images/logo/2026/favicon.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w46702288_b384000_sleng.m3u8"
-      }
-    ]
-  },
-  {
-    "id": "tivora_seed_indonesia_btv",
-    "name": "BTV",
-    "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/apistech/project@main/logo/image_ch_btv.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV"
-      }
-    ]
-  },
-  {
-    "id": "tivora_seed_indonesia_berita_satu",
-    "name": "Berita Satu",
-    "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/berita-satu-id.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "http://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu"
       }
     ]
   },
@@ -518,7 +401,7 @@
     "id": "tivora_seed_indonesia_garuda_tv",
     "name": "Garuda TV",
     "category": "INDONESIA",
-    "logoUrl": "https://thumbor.prod.vidiocdn.com/HBAQU6IMcV4WjpksrE1sj5htPa4=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/garuda-tv-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
@@ -530,120 +413,283 @@
     "id": "tivora_seed_indonesia_nusantara_tv",
     "name": "Nusantara TV",
     "category": "INDONESIA",
-    "logoUrl": "https://thumbor.prod.vidiocdn.com/JOevGN45gmuWOy0d36IGBEqDb00=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/nusantara-tv-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8",
-        "headers": {
-          "Referer": "http://www.dens.tv/"
-        }
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8"
       },
       {
         "label": "Server 2 (Cadangan 1)",
-        "url": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
-        "headers": {
-          "User-Agent": "android-R+"
-        }
+        "url": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8"
       }
     ]
   },
   {
-    "id": "82391e9248cc3a8061e86465",
-    "name": "JAK TV",
+    "id": "tivora_seed_indonesia_cnn_indonesia",
+    "name": "CNN Indonesia",
     "category": "INDONESIA",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_rkv5gee2/banner_xxxhdpi.webp",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/cnn-indonesia-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://stream.icanplay.my.id/play/jaktv.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://stream.icanplay.my.id/drm/jaktv"
+        "url": "https://video.detik.com/livecnn/smil:cnntv/chunklist_w2073324730_b384000_sleng.m3u8"
       }
     ]
   },
   {
-    "id": "37e2580938f3c4288d34e016",
+    "id": "tivora_seed_indonesia_cnbc_indonesia",
+    "name": "CNBC Indonesia",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/cnbc-indonesia-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w46702288_b384000_sleng.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_btv",
+    "name": "BTV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/btv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_berita_satu",
+    "name": "Berita Satu",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/beritasatu-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_mentari_tv",
     "name": "Mentari TV",
     "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/apistech/project@main/logo/image_ch_mentaritv.png",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/mentari-tv-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
         "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/703a71abac3844748b1e68166242d4f3/index.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-          "Referer": "https://www.visionplus.id/"
-        },
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://vision.mikrofast.web.id/license?id=20&type=drm&token=KITKATTV"
-      }
-    ]
-  },
-  {
-    "id": "decaae4ac41d0f5a0ab6dbb7",
-    "name": "BRTV",
-    "category": "INDONESIA",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/rtv-id.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=20&type=drm&token=KITKATTV",
         "headers": {
-          "User-Agent": "android-R+"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
         }
       }
     ]
   },
   {
-    "id": "100c0fa05365e784d35753b5",
-    "name": "TV9 Nusantara",
+    "id": "tivora_seed_indonesia_vision_prime",
+    "name": "Vision Prime",
     "category": "INDONESIA",
-    "logoUrl": "https://thumbor.prod.vidiocdn.com/JOevGN45gmuWOy0d36IGBEqDb00=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg",
+    "logoUrl": "https://static.visionplus.id/media/100/files/channel_logo/visionprime.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
+        "url": "https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=87&type=drm&token=KITKATTV",
         "headers": {
-          "User-Agent": "android-R+"
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
         }
       }
     ]
   },
   {
-    "id": "506cb239b5aca1f21f01f954",
-    "name": "Dunia Anak",
-    "category": "KIDS",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_3wiy77wh/banner_xxxhdpi.webp",
+    "id": "tivora_seed_indonesia_idx",
+    "name": "IDX Channel",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/idx-channel-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_3wiy77wh.mpd?exp=1793215398&sign=37e367fc0490d2eeccfeb707ebba81a8553c53161b7d8e9a86a13d7f864ad03f",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
+        "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd",
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_3wiy77wh&exp=1793215398&sign=37e367fc0490d2eeccfeb707ebba81a8553c53161b7d8e9a86a13d7f864ad03f"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=134&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
+        }
       }
     ]
   },
   {
-    "id": "55dd99832808ed45e264554e",
-    "name": "Da Vinci Learning",
-    "category": "KIDS",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_enfa8a2h/banner_xxxhdpi.webp",
+    "id": "tivora_seed_indonesia_hanacaraka",
+    "name": "Hanacaraka TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/hanacaraka-tv-id.png",
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_enfa8a2h.mpd?exp=1793215398&sign=5b68a40b2eef764b8c30640ecdfc1d1bf7ff1dfefba91578bfea9991084b4dba",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
+        "url": "https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd",
         "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_enfa8a2h&exp=1793215398&sign=5b68a40b2eef764b8c30640ecdfc1d1bf7ff1dfefba91578bfea9991084b4dba"
+        "drmKey": "https://vision.mikrofast.web.id/license?id=89&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_jowo_tv",
+    "name": "Jowo TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/jowo-tv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayasd-1.dens.tv/h/h215/stream.m3u8?app_type=web&userid=lite&chname=Channel_Jowo"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_magna_channel",
+    "name": "Magna Channel",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/magna-channel-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_ajwa_tv",
+    "name": "Ajwa TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/ajwa-tv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://vidio123.mikrofast.web.id/vidio/7464/index.mpd",
+        "headers": {
+          "Referer": "https://m.vidio.com/",
+          "Origin": "https://m.vidio.com"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_sin_po_tv",
+    "name": "SIN PO TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/sinpotv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046",
+        "headers": {
+          "Referer": "https://m.vidio.com/",
+          "Origin": "https://m.vidio.com"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://vidio123.mikrofast.web.id/vidio/19046/index.mpd",
+        "headers": {
+          "Referer": "https://m.vidio.com/",
+          "Origin": "https://m.vidio.com"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_tvri_world",
+    "name": "TVRI World",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/tvri-world-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_vtv",
+    "name": "VTV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/vtv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://flv.intechmedia.net/live/ch107.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_bn_channel",
+    "name": "BN Channel",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/bn-channel-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h108/index.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_indonesiana_tv",
+    "name": "INDONESIANA TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/indonesiana-tv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://tvstreamcast.com/indonesiana.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_oxygen_tv",
+    "name": "Oxygen TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/oxygen-tv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://cdn4-reg2.mm.oxygen.id:8080/hls/oxygentv-web/index.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_daai_tv",
+    "name": "DAAI TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/daai-tv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8"
+      }
+    ]
+  },
+  {
+    "id": "tivora_seed_indonesia_al_bahjah",
+    "name": "Al-Bahjah TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/indonesia/albahjah-tv-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://202.150.161.117:8000/play/AlBahjahTV"
       }
     ]
   },
@@ -847,23 +893,6 @@
     ]
   },
   {
-    "id": "192e46128bb3797fdee0c92b",
-    "name": "Cartoon Network",
-    "category": "KIDS",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_1lrqq4s0/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_1lrqq4s0.mpd?exp=1793215398&sign=20cd8f62ed203dec6b534ab1d24368c8b3d2dd964d20e404b833c4ecdd8db555",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_1lrqq4s0&exp=1793215398&sign=20cd8f62ed203dec6b534ab1d24368c8b3d2dd964d20e404b833c4ecdd8db555"
-      }
-    ]
-  },
-  {
     "id": "5798e57e05b129f79704410b",
     "name": "CBeebies",
     "category": "KIDS",
@@ -878,40 +907,6 @@
         },
         "drmType": "com.widevine.alpha",
         "drmKey": "https://vision.mikrofast.web.id/license?id=58&type=drm&token=KITKATTV"
-      }
-    ]
-  },
-  {
-    "id": "73bd978a908b886cc331bbfc",
-    "name": "Dreamworks",
-    "category": "KIDS",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/apistech/project@main/logo/image_ch_dreamworks.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_h4cdmhi1.mpd?exp=1793215398&sign=323396272a29022a4bd0b5285ee854b1885bd3c8c1d697736cd622ae0a85144d",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_h4cdmhi1&exp=1793215398&sign=323396272a29022a4bd0b5285ee854b1885bd3c8c1d697736cd622ae0a85144d"
-      }
-    ]
-  },
-  {
-    "id": "39c0ef794ca91511837a5841",
-    "name": "MAXKids",
-    "category": "KIDS",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_ynh2anw4/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_ynh2anw4.mpd?exp=1793215398&sign=4bfa3aaad8613f32fcb9b3fefe90762df88ab0c7848fd65c84a7820cd6c5dfbb",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_ynh2anw4&exp=1793215398&sign=4bfa3aaad8613f32fcb9b3fefe90762df88ab0c7848fd65c84a7820cd6c5dfbb"
       }
     ]
   },
@@ -985,23 +980,6 @@
         },
         "drmType": "com.widevine.alpha",
         "drmKey": "https://vision.mikrofast.web.id/license?id=37&type=drm&token=KITKATTV"
-      }
-    ]
-  },
-  {
-    "id": "dccf36969d019ee473004986",
-    "name": "Love Nature",
-    "category": "KNOWLEDGE & LIFESTYLE",
-    "logoUrl": "https://blueantmedia.com/wp-content/uploads/2025/02/LoveNature2024_Logo_Coral-300x119.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_moy42tni.mpd?exp=1793215398&sign=19a309c1c3e108567c53a75fb0d348d78b4e50a0f5e044094602ca238edbfd83",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_moy42tni&exp=1793215398&sign=19a309c1c3e108567c53a75fb0d348d78b4e50a0f5e044094602ca238edbfd83"
       }
     ]
   },
@@ -1235,57 +1213,6 @@
     ]
   },
   {
-    "id": "109535013e8dd12530020b17",
-    "name": "Dunia Lain",
-    "category": "MOVIES",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_s5oc8paq/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_s5oc8paq.mpd?exp=1793215398&sign=c442a237e0321f8e0fbabda43ac2f748ee4f72adf5167d5816bc1cb172f13b26",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_s5oc8paq&exp=1793215398&sign=c442a237e0321f8e0fbabda43ac2f748ee4f72adf5167d5816bc1cb172f13b26"
-      }
-    ]
-  },
-  {
-    "id": "92d1036009da2dd9aa97442a",
-    "name": "Bioskop Indonesia",
-    "category": "MOVIES",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_urq0w0mp/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://stream.icanplay.my.id/play/bioskopid.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://stream.icanplay.my.id/drm/bioskopid"
-      }
-    ]
-  },
-  {
-    "id": "f5946cc0ba33c3f922f84a92",
-    "name": "Warner TV",
-    "category": "MOVIES",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_meap4fi2/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_meap4fi2.mpd?exp=1793215398&sign=ad955bcb960692d4b0b21a66668f34802279d924d370174a2c43eb67adaf3421",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_meap4fi2&exp=1793215398&sign=ad955bcb960692d4b0b21a66668f34802279d924d370174a2c43eb67adaf3421"
-      }
-    ]
-  },
-  {
     "id": "4996ed8e0d0da15862abc653",
     "name": "SONY PIX",
     "category": "MOVIES",
@@ -1317,23 +1244,6 @@
     ]
   },
   {
-    "id": "ab8fb87978b7e23eecd33d62",
-    "name": "Rock Entertainment",
-    "category": "MOVIES",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_a98kaoda/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_a98kaoda.mpd?exp=1793215398&sign=0e0dfdc42c2d955f20c6a8f7341c9d5a21f52345d5760f8119efd8caf6255144",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_a98kaoda&exp=1793215398&sign=0e0dfdc42c2d955f20c6a8f7341c9d5a21f52345d5760f8119efd8caf6255144"
-      }
-    ]
-  },
-  {
     "id": "98826a6afd5811224b894ec6",
     "name": "HBO",
     "category": "MOVIES",
@@ -1341,96 +1251,19 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv.icanplay.my.id/stream/0_xgdr0qbd.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv.icanplay.my.id/drm?id=0_xgdr0qbd"
-      },
-      {
-        "label": "Server 2 (Cadangan 1)",
         "url": "http://185.227.34.179:8080/hbo-2-hd/index.m3u8"
       },
       {
-        "label": "Server 3 (Cadangan 2)",
+        "label": "Server 2 (Cadangan 1)",
         "url": "http://185.227.34.179:8080/hbo-3-hd/index.m3u8"
       },
       {
-        "label": "Server 4 (Cadangan 3)",
+        "label": "Server 3 (Cadangan 2)",
         "url": "http://141.94.193.53/HBO_HD/index.m3u8",
         "headers": {
           "Referer": "https://maxstream.tv/",
           "User-Agent": "IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
         }
-      }
-    ]
-  },
-  {
-    "id": "dcb445e5412d7bfa9597b15e",
-    "name": "HBO Hits",
-    "category": "MOVIES",
-    "logoUrl": "",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv.icanplay.my.id/stream/0_k7eh4erk.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv.icanplay.my.id/drm?id=0_k7eh4erk"
-      }
-    ]
-  },
-  {
-    "id": "25c67d0225a6dbceb39798e3",
-    "name": "HBO Family",
-    "category": "MOVIES",
-    "logoUrl": "https://cdn.macan.tv/img/hbo_family.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv.icanplay.my.id/stream/0_qqui53si.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv.icanplay.my.id/drm?id=0_qqui53si"
-      }
-    ]
-  },
-  {
-    "id": "b99055a477e365d14dacac7e",
-    "name": "HBO Signature",
-    "category": "MOVIES",
-    "logoUrl": "",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv.icanplay.my.id/stream/0_s6bo567h.mpd",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv.icanplay.my.id/drm?id=0_s6bo567h"
-      }
-    ]
-  },
-  {
-    "id": "b07cf0986e0d2c7c86b7b349",
-    "name": "Indonesia Movie Channel",
-    "category": "MOVIES",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/apistech/project@main/logo/image_ch_imc.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_blvd5qf0.mpd?exp=1793215398&sign=474467676c78b3217cf88c4000d3ef95c2d9d5de080b9b0ab4a4e704cd87eb0e",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_blvd5qf0&exp=1793215398&sign=474467676c78b3217cf88c4000d3ef95c2d9d5de080b9b0ab4a4e704cd87eb0e"
       }
     ]
   },
@@ -1449,40 +1282,6 @@
         },
         "drmType": "com.widevine.alpha",
         "drmKey": "https://vision.mikrofast.web.id/license?id=41&type=drm&token=KITKATTV"
-      }
-    ]
-  },
-  {
-    "id": "226856fa3b52d313f184777b",
-    "name": "tvN Movies",
-    "category": "MOVIES",
-    "logoUrl": "https://cdn.jsdelivr.net/gh/apistech/project@main/logo/image_ch_tvnmovies.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_2ayrv6w3.mpd?exp=1793215398&sign=c53bc7e7248047f87b38165dc850a56e18051a5f92cacd04e54277e85f45caa2",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_2ayrv6w3&exp=1793215398&sign=c53bc7e7248047f87b38165dc850a56e18051a5f92cacd04e54277e85f45caa2"
-      }
-    ]
-  },
-  {
-    "id": "32d01f2f44afb3dd3e974303",
-    "name": "tvN",
-    "category": "MOVIES",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_r16b30de/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_r16b30de.mpd?exp=1793215398&sign=af3a9dce2cd70fe54db7d5695354f7066dc76ba86c9dba8703e9bd4e81d6800c",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_r16b30de&exp=1793215398&sign=af3a9dce2cd70fe54db7d5695354f7066dc76ba86c9dba8703e9bd4e81d6800c"
       }
     ]
   },
@@ -1576,74 +1375,6 @@
         },
         "drmType": "com.widevine.alpha",
         "drmKey": "https://vision.mikrofast.web.id/license?id=48&type=drm&token=KITKATTV"
-      }
-    ]
-  },
-  {
-    "id": "9883454400094cd5e45f9f9f",
-    "name": "KIX",
-    "category": "MOVIES",
-    "logoUrl": "https://static.wikia.nocookie.net/logos/images/2/21/KIX_HD.png/revision/latest?cb=20220216043203&path-prefix=vi",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_jqlzd1wf.mpd?exp=1793215398&sign=c371fa27788f71e84ad6d8acb75ac384e6a8f037a800fbbec4207ae2bc13ad0e",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_jqlzd1wf&exp=1793215398&sign=c371fa27788f71e84ad6d8acb75ac384e6a8f037a800fbbec4207ae2bc13ad0e"
-      }
-    ]
-  },
-  {
-    "id": "56abbf753b54a276eb88418d",
-    "name": "Cinemax",
-    "category": "MOVIES",
-    "logoUrl": "",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_7vx2webw.mpd?exp=1793215398&sign=aca8bb06232ca01eca66747012d3efa2c2e3d10d2082028fde2cb5d3c6f43c73",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_7vx2webw&exp=1793215398&sign=aca8bb06232ca01eca66747012d3efa2c2e3d10d2082028fde2cb5d3c6f43c73"
-      }
-    ]
-  },
-  {
-    "id": "8e879355b67a8157c0c246ac",
-    "name": "CinemaWorld",
-    "category": "MOVIES",
-    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_s7gzj2we/banner_xxxhdpi.webp",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_s7gzj2we.mpd?exp=1793215398&sign=0978a58d50c467e5470eaaaf2644fd6e1ced129d79553444a33cdaf5b9f4a3d8",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_s7gzj2we&exp=1793215398&sign=0978a58d50c467e5470eaaaf2644fd6e1ced129d79553444a33cdaf5b9f4a3d8"
-      }
-    ]
-  },
-  {
-    "id": "3803b0c31c7a712681133094",
-    "name": "Celestial Movies",
-    "category": "MOVIES",
-    "logoUrl": "https://alchetron.com/cdn/celestial-movies-bb30cf54-c796-47e1-aa8f-f2b8bdbbf5a-resize-750.png",
-    "servers": [
-      {
-        "label": "Server 1 (Utama)",
-        "url": "https://maxstreamtv-token.ambontv.my.id/stream/0_vq7m2eeg.mpd?exp=1793215398&sign=51946af1a52fd211b02c54325f9a227410fa8dedb5510cc783cbf01a6c42fdee",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
-        },
-        "drmType": "com.widevine.alpha",
-        "drmKey": "https://maxstreamtv-token.ambontv.my.id/drm?id=0_vq7m2eeg&exp=1793215398&sign=51946af1a52fd211b02c54325f9a227410fa8dedb5510cc783cbf01a6c42fdee"
       }
     ]
   },
@@ -1937,6 +1668,16 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
+        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://cignalplay.com/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
         "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
         "headers": {
           "User-Agent": "TiviMate/4.7.0"
@@ -2186,6 +1927,33 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 4 (Cadangan 3)",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0"
@@ -2194,7 +1962,7 @@
         "drmKey": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281"
       },
       {
-        "label": "Server 2 (Cadangan 1)",
+        "label": "Server 5 (Cadangan 4)",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0"
@@ -2203,7 +1971,7 @@
         "drmKey": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
       },
       {
-        "label": "Server 3 (Cadangan 2)",
+        "label": "Server 6 (Cadangan 5)",
         "url": "https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0"
@@ -2212,11 +1980,11 @@
         "drmKey": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
       },
       {
-        "label": "Server 4 (Cadangan 3)",
+        "label": "Server 7 (Cadangan 6)",
         "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8"
       },
       {
-        "label": "Server 5 (Cadangan 4)",
+        "label": "Server 8 (Cadangan 7)",
         "url": "https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlist.m3u8",
         "headers": {
           "User-Agent": "TiviMate/4.7.0"
@@ -2232,12 +2000,30 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/tepjqej1ys/out/v1/c9c9159baee749a19612b1598495859a/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/wybgz0orr8/out/v1/2f6d1612abd44f5883917f8a585b955f/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd",
         "drmType": "clearkey",
         "drmKey": "2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f"
       },
       {
-        "label": "Server 2 (Cadangan 1)",
+        "label": "Server 4 (Cadangan 3)",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tepjqej1ys/out/v1/c9c9159baee749a19612b1598495859a/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
@@ -2246,7 +2032,7 @@
         "drmKey": "8836fb04d62dc64c9f8a39ef8640d5eb:d4f05ce56c5231b7cdf53455bea58621"
       },
       {
-        "label": "Server 3 (Cadangan 2)",
+        "label": "Server 5 (Cadangan 4)",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wybgz0orr8/out/v1/2f6d1612abd44f5883917f8a585b955f/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
@@ -2296,6 +2082,15 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
+        "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
         "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8?hdnea=exp=1653452799~acl=/*~hmac=6fa983776826e1224ab4c19996ce92f00a1ad234617b07fd8a398160d72c19e0",
         "headers": {
           "User-Agent": "ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0"
@@ -2311,6 +2106,42 @@
     "servers": [
       {
         "label": "Server 1 (Utama)",
+        "url": "http://kstv.us:8080/jimmyrhale/JE1974aa$$/47852",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "http://kstv.us:8080/jimmyrhale/JE1974aa$$/47853",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 4 (Cadangan 3)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 5 (Cadangan 4)",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0"
@@ -2319,7 +2150,7 @@
         "drmKey": "12413e2c2855cfc59ce0fe6b20cc71ca:08d55a8f5fc93a9375f9b0cb2e1739ca"
       },
       {
-        "label": "Server 2 (Cadangan 1)",
+        "label": "Server 6 (Cadangan 5)",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/65ldy4ejuu/out/v1/69bc6b64f1c14e36bb21e0075a71d8ca/cenc.mpd",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/140.0"
@@ -2328,7 +2159,7 @@
         "drmKey": "570c19f1be3410e4e409be4dc7923f2b:9a4dea8af2a2a703dffa8a477e9edc50"
       },
       {
-        "label": "Server 3 (Cadangan 2)",
+        "label": "Server 7 (Cadangan 6)",
         "url": "http://168.196.127.137:6001/play/a05t/index.m3u8",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
@@ -2440,6 +2271,2847 @@
         "url": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8",
         "headers": {
           "User-Agent": "android-R+"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_arirang",
+    "name": "Arirang",
+    "category": "MOVIES",
+    "logoUrl": "https://images.maxstream.tv/sites/default/files/entry/0_wd3w16vp/banner_xxxhdpi.webp",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/QXJpcmFuZw/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_ent",
+    "name": "Ent",
+    "category": "MOVIES",
+    "logoUrl": "https://www.visionplus.id/images/repository/632/632-LOGO-m.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=72",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=72",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_lifetime",
+    "name": "Lifetime",
+    "category": "MOVIES",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFeERq0ENoTWkX3BIkXIhln5qdbuw8Zxvb2IBMxW1fTv9AIfwN956H-Qoo&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/1880fc1b32d3449196e80345f6cd5918/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=80&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_vision_prime",
+    "name": "Vision Prime",
+    "category": "MOVIES",
+    "logoUrl": "https://www.mncvision.id/userfiles/image/channel/channel_1.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=87",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=87",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_eat_n_go",
+    "name": "Eat N Go",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c6856fd0d66d0170342015d30907/85688b31b56144359c33caca3244ecbd.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/RWF0IE4gR28/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_travel_tv",
+    "name": "Travel TV",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c685840ff04901844ace4a654c8a/f872178169204b9c8c9255df14634757.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/VHJhdmVsIFRW/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_one_tv",
+    "name": "One TV",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c685840ff049018455ff15294362/3355e8a7631a416d8d6e2d9ecc15e43a.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/T25lIFRW/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_superyacht_tv",
+    "name": "Superyacht TV",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c685840ff04901844ad943c54c8c/76b84bea068648e9aa643c331f921f30.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/U3VwZXJZYWNodCBUVg/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_cooking_tv",
+    "name": "Cooking TV",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c68582449a2e0182597009c021ef/32daa8a0abee4287996c63a00a05a4ff.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q29va2luZyBUVg/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_gaming_tv",
+    "name": "Gaming TV",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c68582449a2e01825972299121f1/1aad84f7ef224df1b6d2c8784c28ceee.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/R2FtaW5nIFRW/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_dens_play",
+    "name": "DENS Play",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c6858f902547018fccb15a5212b1/21158a2d854d43ecaf53e0c60c10aa18.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/REVOUyBQbGF5IENoYW5uZWw/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_dens_showbiz",
+    "name": "DENS Showbiz",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c6858f902547018fccb23c8c12b2/a77aa9f00762427daaa96ee606d46f6e.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/REVOUyBTaG93Qml6/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_dens_food_channel",
+    "name": "DENS Food Channel",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c6858f902547018fccae36ec12b0/0599e44bb5f542f78269679c54286ebe.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/REVOUyBGb29kIENoYW5uZWw/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_knowledge+",
+    "name": "Knowledge+",
+    "category": "MOVIES",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c68582449a2e018259716f7821f0/94bcf3d9f1564897bab055065f206550.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/S25vd2xlZGdlKw/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_crema_tv",
+    "name": "Crema TV",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701422037_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h202/index.m3u8?app_type=web&userid=lite&chname=Crema_TV",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_qwest_tv",
+    "name": "Qwest TV",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1763699104_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h306/stream.m3u8?app_type=web&userid=lite&chname=Qwest_TV",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_stingray_classica",
+    "name": "Stingray Classica",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423611_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h304/stream.m3u8?app_type=web&userid=lite&chname=Stingray_Classica",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_dance_tv",
+    "name": "Dance TV",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1701423538_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h308/stream.m3u8?app_type=web&userid=lite&chname=Dance_TV",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_densplay",
+    "name": "DensPlay",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501248_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h246/index.m3u8?app_type=web&userid=lite&chname=DensPlay",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_denslife_n_style",
+    "name": "DensLife N Style",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8?app_type=web&userid=lite&chname=DensLifenStyle",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_densfood_channel",
+    "name": "DensFood Channel",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501416_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8?app_type=web&userid=lite&chname=DensFood_Channel",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_densshowbiz",
+    "name": "DensShowBiz",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501370_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h244/index.m3u8?app_type=web&userid=lite&chname=DensShowBiz",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_indonesia_trans",
+    "name": "TRANS",
+    "category": "INDONESIA",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/trans-7-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://transmedia.mikrofast.my.id/transtv/trans7/index.m3u8?direct=1",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://20.detik.com/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://live.eu-north-1a.cf.dmcdn.net/sec2(uL0jVIjGWU8cflXHuuzz0VlAKNR8nIsg1xteJU05Bu9wdoQ64Q9lE3yfp_-96OZ3v-XI9JwfWQjVI2Y93zSLnHEG_edfnUBfdFEpP4_Pki1nBQJcRyj7GHpY4ZfxfACF)/dm/3/x8qckyq/d/live-720.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.cnbcindonesia.com/",
+          "Origin": "https://20.detik.com",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 4 (Cadangan 3)",
+        "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=7&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_indonesia_indosiar_hd_vd",
+    "name": "INDOSIAR HD VD",
+    "category": "INDONESIA",
+    "logoUrl": "https://thumbor.prod.vidiocdn.com/e-tiJFPZKI4QjhxAHzp_5foCkGE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://m.vidio.com/",
+          "Origin": "https://m.vidio.com",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_indonesia_indosiar_v+",
+    "name": "INDOSIAR V+",
+    "category": "INDONESIA",
+    "logoUrl": "https://thumbor.prod.vidiocdn.com/e-tiJFPZKI4QjhxAHzp_5foCkGE=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=9&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_indonesia_moji_tv",
+    "name": "MOJI TV",
+    "category": "INDONESIA",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/indonesia/moji-id.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=19&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_indonesia_idx",
+    "name": "IDX",
+    "category": "INDONESIA",
+    "logoUrl": "https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=134&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_sahabat_ananda",
+    "name": "Sahabat Ananda",
+    "category": "KIDS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQpernKreZW06tfzPwA_4Qm7zbUNn8qRO2dHI3qO51dbjk61PUYGS7MnE&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://vodcdn.bamboo-cloud.com/livehls/68ef86320630444b1f796875/master.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_kidsflix",
+    "name": "KidsFlix",
+    "category": "KIDS",
+    "logoUrl": "https://play-lh.googleusercontent.com/-19ECcAzLu1wlsX_YgKLNyXhXuyZHwtQqlK25erlGyDrc2ldXrxBnN8b4k4JaIcR-TAqDKFKA70_n4CmQM7J",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_cartoon_tv_premium",
+    "name": "Cartoon TV Premium",
+    "category": "KIDS",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c6856b8d2390016b9c47b6f01de1/f6fae792d2f44cb4be2204c7fd1fd527.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q2FydG9vbiBUViBQcmVtaXVt/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_cartoon_tv_classic",
+    "name": "Cartoon TV Classic",
+    "category": "KIDS",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c685840ff0490184560100c34363/5550dd0409a04f948407c307a9468240.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q2FydG9vbiBUViBDbGFzc2ljcw/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_cartoon_tv",
+    "name": "Cartoon TV",
+    "category": "KIDS",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c6856c3db2cc016d144f21811dc9/fb19799254344b97a83bca4253360ede.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/Q2FydG9vbiBUVg/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_nick_jr.",
+    "name": "Nick Jr.",
+    "category": "KIDS",
+    "logoUrl": "https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nickjr.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=60&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_abc_cartoons",
+    "name": "ABC Cartoons",
+    "category": "KIDS",
+    "logoUrl": "https://media.info/l/o/6/6469.1480802065.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/399aa25b71e84ab19a7d3261703c4a29/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_abc_kids",
+    "name": "ABC Kids",
+    "category": "KIDS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/ABC_Kids_%282020%29.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/8c6fa500258e44289312adb342b0f7ad/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_abc_kids_all_aussie",
+    "name": "ABC Kids All Aussie",
+    "category": "KIDS",
+    "logoUrl": "https://static.wikia.nocookie.net/logopedia/images/6/67/ABCForKids_%281998-2009%29.png/revision/latest?cb=20211022234203",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/8da66660000f4c05921b166bb4cee65e/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_abc_big_kids_all_aussie",
+    "name": "ABC Big Kids All Aussie",
+    "category": "KIDS",
+    "logoUrl": "https://cdn.iview.abc.net.au/thumbs/i/Logo-URL-Wide-1020x574_BigKids_new.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/94adcb14be98408cbda4b7b404e94fb4/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_abc_kids_play_school",
+    "name": "ABC Kids Play School",
+    "category": "KIDS",
+    "logoUrl": "https://static.wikia.nocookie.net/logopedia/images/2/23/ABC_Kids_Play.png/revision/latest?cb=20181007103810",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/8ca49b4e0bec4bbb84f14c4f18e88697/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_kids_abc_kids_play_music",
+    "name": "ABC Kids Play Music",
+    "category": "KIDS",
+    "logoUrl": "https://static.wikia.nocookie.net/logopedia/images/2/23/ABC_Kids_Play.png/revision/latest?cb=20181007103810",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/72481e65a40b49b59af9f49e29e7b352/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_entertainment",
+    "name": "Entertainment",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://www.visionplus.id/images/repository/632/632-LOGO-m.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xx73ro32cip.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://dusk.biz.id/rpl/drm.php?id=72",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_history_us",
+    "name": "HISTORY US",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/HistoryHD_Logo_2015_4C_Black_type.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://live.corusdigitaldev.com/groupa/live/c0ebcb53-b9fa-4359-830b-714eb459c6d1/corus-history.isml/.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_dens_food_channel.id",
+    "name": "DENS Food Channel.id",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "http://raw.githubusercontent.com/m3ulink/logo/main/117.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://op-flashcon-digdayahd-1.dens.tv/h/h221/index.m3u8?app_type=web&userid=lite&chname=DensFood_Channel",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_celebritiestv",
+    "name": "CelebritiesTV",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://e7.pngegg.com/pngimages/789/35/png-clipart-logo-celebrity-graphic-design-brand-font-cat-victorious-purple-television.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=88&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_natgeo_graphic_(s1)",
+    "name": "NATGEO GRAPHIC (S1)",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://dookeela.live/uploads/1716366217.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_hunt_fish_tv",
+    "name": "Hunt Fish TV",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://www.sportstribal.tv/home/wp-content/uploads/2024/02/huntfishtv.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://streams2.sofast.tv/ptnr-stirr/genre-Sports/lang-English/ctgr-Sport/title-HUNT_FISH_TV/sofastplayout/WiseM3U8_2/master.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_cgtn_documentary",
+    "name": "CGTN Documentary",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://images.indihometv.com/images/channels/image_ch_cgtndocumentary.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=155&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_cgtn_global_biz",
+    "name": "CGTN GLOBAL BIZ",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVjaEIHCBqi6mEgkr3eF76YA6BpUMDZcirI34P8dDMEQNqpCup6-fAHs&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_history_hit",
+    "name": "History Hit",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqBikd1zhip8OTM1hR4gMTAtuZeNmuUVvXZ9pcEO9Cw&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://lds-timeline-rakuten.amagi.tv/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_science",
+    "name": "Science",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo6srJo-9UptSpGlKcV2KhX2Vva-pQfyufzsy07aHRdQ&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_discovering_china",
+    "name": "Discovering China",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "http://cdn.technettv.com/channel/34133/logo_256.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_discovery_turbo",
+    "name": "Discovery Turbo",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEJfX73dldq1a9CvYaLj-JjZ-jJ7KUzFPdhFpxlFaLw&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_discovery_turbo_merah",
+    "name": "Discovery Turbo MERAH",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTVSMSX_UnYxeplHK_dGNABzos7VMln-9uQeVVODAgw&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Investigationdiscovery2/default/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_discovery_id",
+    "name": "Discovery ID",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjkY74fbtPSHyUwi5n4GNmiiTGHduTVUZI4vRN3-SyBzW_tWTdmSTsbqPT&amp;s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://a82aivottlinear-a.akamaihd.net/OTTB/PDX/clients/dash-sd/enc/ezzzdqdq6n/out/v1/15b0b244788c4620abb49708d0b1b37e/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_magellantv_wildest",
+    "name": "MagellanTV Wildest",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://blueantmedia.com/wp-content/uploads/2025/10/MagellanTV_Hero_GS.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fsvs0bvb7h/out/v1/cac331ecba3b4d86b58a1a0a706a82eb/cenc.mpd?encoding=segmentBase",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_knowledge & lifestyle_pbs_nature",
+    "name": "PBS Nature",
+    "category": "KNOWLEDGE & LIFESTYLE",
+    "logoUrl": "https://www.pbs.org/images/pbs_share_twitter.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qi23sqygqv/out/v1/cb1c6fe397164335b456dd8a33cb821b/cenc.mpd?encoding=segmentBase",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_star_movies",
+    "name": "STAR MOVIES",
+    "category": "MOVIES",
+    "logoUrl": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://tv.cloudcdn.me/live.ts?channelId=198&uid=12643&deviceMac=00:1A:79:03:13:DE",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_star_movies_select",
+    "name": "STAR MOVIES SELECT",
+    "category": "MOVIES",
+    "logoUrl": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT/images/LOGO_HD/image.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://tv.cloudcdn.me/live.ts?channelId=199&uid=12643&deviceMac=00:1A:79:03:13:DE",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_chc_action_movies",
+    "name": "CHC ACTION MOVIES",
+    "category": "MOVIES",
+    "logoUrl": "https://i.imgur.com/AuiVcyh.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://69.30.245.50/live/chcdz.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_chc_home_theater",
+    "name": "CHC HOME THEATER",
+    "category": "MOVIES",
+    "logoUrl": "https://i.imgur.com/AwBldBE.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://69.30.245.50/live/chcjt.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_star_movies_hd_airtel",
+    "name": "STAR MOVIES HD AIRTEL",
+    "category": "MOVIES",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQl6HA0DK8KBC9Yp9yqHPn2XPpW-NSOvretdjLEsE2zXBT7-KpYmZBpOkJ&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://main.light-ott.net:80/play/live.php?mac=00:1A:79:18:18:3D&stream=373304&extension=ts&play_token=ciHoqkD84h",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_star_movies_select_hd_airtel",
+    "name": "STAR MOVIES SELECT HD AIRTEL",
+    "category": "MOVIES",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhBcjWSMu3H62nyOiL0Yi8sQDhQNWZkdxEPFwJkJ1ww&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://main.light-ott.net:80/play/live.php?mac=00:1A:79:18:18:3D&stream=373320&extension=ts&play_token=Q8T1h2DuEg",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_hits_now",
+    "name": "HITS Now",
+    "category": "MOVIES",
+    "logoUrl": "https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_hitsnow.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/73b9fdd0cd0e4570b482c92fa43ecda9/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=68&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_cineedge",
+    "name": "Cineedge",
+    "category": "MOVIES",
+    "logoUrl": "https://www.visionplus.id/images/repository/376/273376-LOGO-m.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=40&type=drm&token=apistech",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_my_cinema_europe",
+    "name": "My Cinema Europe",
+    "category": "MOVIES",
+    "logoUrl": "https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687502977_tvchannels_v1.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8?app_type=web&userid=lite&chname=My_Cinema_Europe_HD",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_mn+",
+    "name": "MN+",
+    "category": "MOVIES",
+    "logoUrl": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/leazcc.jpeg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_movies_mnx",
+    "name": "MNX",
+    "category": "MOVIES",
+    "logoUrl": "https://d229kpbsb5jevy.cloudfront.net/timesplay/content/common/logos/channel/logos/vunjev.jpeg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_spotv_ph",
+    "name": "SPOTV PH",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/Spotv.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_1_au",
+    "name": "beIN Sports 1 AU",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-1-hz-int.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/syd-nitro/live/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_2_au",
+    "name": "beIN Sports 2 AU",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-2-hz-int.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/syd-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_3_au",
+    "name": "beIN Sports 3 AU",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/beinsports/old/horizontal/bein-sports-3-hz-int.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/syd-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_xtra_us",
+    "name": "beIN Sports Xtra US",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-xtra-us.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_xtra_español_us",
+    "name": "beIN Sports Xtra Español US",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/bein-sports-xtra-espanol-us.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sportv",
+    "name": "SPORTV",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SporTV.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dsports",
+    "name": "DSPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/hufm7lgnhx/out/v1/5045630288d44123ba85427b2c36f29f/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/hubonmgf5k/out/v1/10560d92577e4917973aa4624124ecd6/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dsports_+",
+    "name": "DSPORTS +",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-plus-lam.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_cctv",
+    "name": "CCTV",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/CCTV5.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://107.150.60.122/live/cctv5hd.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_tsn_sports",
+    "name": "TSN Sports",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/TSN1.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 4 (Cadangan 3)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 5 (Cadangan 4)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_digital_fussball",
+    "name": "Sport Digital Fussball",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/aderandi/iptv-playlist/refs/heads/main/Logo/SportDigitalFussball.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_extra_id",
+    "name": "BEIN SPORTS EXTRA ID",
+    "category": "SPORTS",
+    "logoUrl": "https://images.pluto.tv/channels/5df975e2b27cf5000921c102/featuredImage.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_tyc_sports",
+    "name": "TYC SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFLukYBSLHmGfu6GoC68z95_NM9Rnte7bGHEhXfiaqleltngR-hpWh47uv&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://45.224.96.220:18000/play/a07y/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sport_extraz",
+    "name": "Bein Sport Extraz",
+    "category": "SPORTS",
+    "logoUrl": "https://www.freelivesports.tv/wp-content/uploads/2025/01/bein-extra-212.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_cctv5",
+    "name": "CCTV5",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVzAyuu4w3zlYqHp0PUFBKe-nYYqcFtGGHpGWEIqGzQ&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub",
+        "drmType": "com.widevine.alpha",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "http://107.150.60.122/live/cctv5p.m3u8",
+        "drmType": "com.widevine.alpha",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_cctv16",
+    "name": "CCTV16",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVzAyuu4w3zlYqHp0PUFBKe-nYYqcFtGGHpGWEIqGzQ&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://107.150.60.122/live/cctv16hd.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sony-sports-1-hd",
+    "name": "sony-sports-1-hd",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sony-sports-2-hd",
+    "name": "sony-sports-2-hd",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sony-sports-5-hd",
+    "name": "sony-sports-5-hd",
+    "category": "SPORTS",
+    "logoUrl": "https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dd_sports_2.0",
+    "name": "DD Sports 2.0",
+    "category": "SPORTS",
+    "logoUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/16/DD_Sports_logo.svg/1280px-DD_Sports_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_willow_sports",
+    "name": "Willow SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZcJANelaW8aBRREj0hAfcWIjvYWJdJ_Epg&usqp=CAU",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sports_tv",
+    "name": "Sports TV",
+    "category": "SPORTS",
+    "logoUrl": "https://cdnjkt913.transvision.co.id:1000/image/web/channel/4028c68582449a2e0182597898d221f4/2e42a0ffaf0f402380bab8dd80ffc40e.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://aktasari.pages.dev/ion26/riutx01-5a1d00e9c5446ca948b790aeae20a779/dash/U3BvcnRzIFRW/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_v+_live",
+    "name": "V+ LIVE",
+    "category": "SPORTS",
+    "logoUrl": "https://www.visionplus.id/images/repository/444/92444-LOGO-m.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=1002",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=1002",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://bandeltv.xyz/sc1980/2025/Kvision/mpd.php/.mpd?id=1010",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://bandeltv.xyz/sc1980/2025/Kvision/drm.php?id=1010",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "Origin": "https://www.visionplus.id",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_1_(vision+)",
+    "name": "beIN Sports 1 (Vision+)",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=122&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_2_(vision+)",
+    "name": "beIN Sports 2 (Vision+)",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_bein_sports_2.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=123&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_3_(vision+)",
+    "name": "beIN Sports 3 (Vision+)",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Logo_bein_sports_3.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=124&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_soccer_channel(vision+)",
+    "name": "SOCCER CHANNEL(Vision+)",
+    "category": "SPORTS",
+    "logoUrl": "https://mimipipi22.github.io/logo/sports/soccer.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=115&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sportstars_3_(vision+)",
+    "name": "SPORTSTARS 3 (Vision+)",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sportstars_3.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=114&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sportstars_4_(vision+)",
+    "name": "SPORTSTARS 4 (Vision+)",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sportstars_4.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd",
+        "drmType": "com.widevine.alpha",
+        "drmKey": "https://vision.mikrofast.web.id/license?id=205&type=drm&token=KITKATTV",
+        "headers": {
+          "Referer": "https://www.visionplus.id/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          "Origin": "https://www.visionplus.id"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_klub_si",
+    "name": "SPORT KLUB SI",
+    "category": "SPORTS",
+    "logoUrl": "https://r2.thesportsdb.com/images/media/channel/logo/mqed821604073947.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL1.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL3.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_klub_sl",
+    "name": "SPORT KLUB SL",
+    "category": "SPORTS",
+    "logoUrl": "https://r2.thesportsdb.com/images/media/channel/logo/axtu9e1604073980.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-eropa/inal-22/SportKlubSL2.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sportv_ao_vivo",
+    "name": "SPORTV AO VIVO",
+    "category": "SPORTS",
+    "logoUrl": "https://i.imgur.com/TP8V8PK.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dazn",
+    "name": "DAZN",
+    "category": "SPORTS",
+    "logoUrl": "https://www.thesportsdb.com/images/media/channel/logo/nujnit1784996751.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://liveua.cdnfly.click/pt_elevensport1/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://aesport.tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://liveua.cdnfly.click/pt_elevensport2/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://aesport.tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://liveua.cdnfly.click/pt_elevensport3/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://aesport.tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 4 (Cadangan 3)",
+        "url": "https://liveua.cdnfly.click/pt_elevensport4/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://aesport.tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_italian_fishing_tv",
+    "name": "Italian Fishing TV",
+    "category": "SPORTS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240402T134311SQUARE.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d2n1ucuifwse4q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5nki8b8udz6dm/index.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_fishing_tv",
+    "name": "FISHING TV",
+    "category": "SPORTS",
+    "logoUrl": "https://images-tm.tempo.co/all/2023/11/04/845913/845913_1200.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_eurosport",
+    "name": "EUROSPORT",
+    "category": "SPORTS",
+    "logoUrl": "https://r2.thesportsdb.com/images/media/channel/logo/Eurosport_1_Netherlands.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://webtv.sk/tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_star_sport",
+    "name": "STAR SPORT",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgZJOjMlOWLU9Lm6TGD64HqG8opGW7MB-qlrjoHi_H_3RHlY83rReaSbeP&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/Starsport3.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_star_sport_select",
+    "name": "STAR SPORT SELECT",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrGATtN4vdkdomvQYXViw3UA7LzOtjxGniw&usqp=CAU",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/StarsportSelect1.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/StarsportSelect2.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_monomax_sports",
+    "name": "MONOMAX SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://i.imgur.com/mRhtasR.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dsports+",
+    "name": "DSPORTS+",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/DSports_logo_2022.svg/960px-DSports_logo_2022.svg.png?_=20240702054322",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/kp7qfx2tly/out/v1/bbfb730b45b74d4ea875d75786ea3f13/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dsports2",
+    "name": "DSPORTS2",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/DSports2.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/hufm7lgnhx/out/v1/5045630288d44123ba85427b2c36f29f/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_dsports_5+",
+    "name": "DSPORTS 5+",
+    "category": "SPORTS",
+    "logoUrl": "https://pbs.twimg.com/profile_images/969313918727409665/mRvrSacI_400x400.jpg",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/kp7qfx2tly/out/v1/bbfb730b45b74d4ea875d75786ea3f13/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_rtbf_tipik",
+    "name": "RTBF TIPIK",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Tipik_2025.svg/1280px-Tipik_2025.svg.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_star_sports_3_(new)",
+    "name": "STAR SPORTS 3 (NEW)",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMintGID2yDIo_AL-211n-4Pt30sG8R2_1X0lOsdbAig&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/Starsport3.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_star_sports_select_1_(new)",
+    "name": "STAR SPORTS SELECT 1 (NEW)",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMintGID2yDIo_AL-211n-4Pt30sG8R2_1X0lOsdbAig&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/StarsportSelect1.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_star_sports_select_2_(new)",
+    "name": "STAR SPORTS SELECT 2 (NEW)",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMintGID2yDIo_AL-211n-4Pt30sG8R2_1X0lOsdbAig&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://raw.githubusercontent.com/B-inal-123/s-asia/inal-22/StarsportSelect2.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_spotv_1_ph",
+    "name": "SpoTV 1 PH",
+    "category": "SPORTS",
+    "logoUrl": "https://www.visionplus.id/images/repository/957/49957-SNAPSHOT-l.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_spotv_2_ph",
+    "name": "SpoTV 2 PH",
+    "category": "SPORTS",
+    "logoUrl": "https://www.visionplus.id/images/repository/960/49960-SNAPSHOT-l.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_motor_vision+",
+    "name": "MOTOR VISION+",
+    "category": "SPORTS",
+    "logoUrl": "https://motorvision.tv/wp-content/uploads/2023/09/MV_Logo_positive_light_background-2.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://op-flashcon-digdayahd-1.dens.tv/h/h09/index.m3u8?app_type=web&userid=lite&chname=Motorvision%2B",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://www.dens.tv/",
+          "Origin": "https://www.dens.tv",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_au",
+    "name": "BeIN Sports AU",
+    "category": "SPORTS",
+    "logoUrl": "https://shorter.me/sYn-B",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sporttv",
+    "name": "SportTV",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjW04JBhtv5zAMHJPs9J50hcOQM1Mr6H5YNg&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_prima_sport",
+    "name": "Prima Sport",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYeh83SinE7EU9kd4zaZ5e3GkKC2_VDlQPTA&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://iron1.xn--x2rw19a.space/puk1/usergenrx0cir27aq.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://iron1.xn--x2rw19a.space/000/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://iron1.xn--x2rw19a.space/puk3/usergenrx4t0l8sybkr.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://iron1.xn--x2rw19a.space/000/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_prima_sports",
+    "name": "Prima SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://static.wikia.nocookie.net/logopedia/images/1/18/Prima_Sport_2_new.svg/revision/latest/scale-to-width-down/150?cb=20230125050049",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://iron1.xn--x2rw19a.space/puk2/usergenrnd0clv03fyt.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://iron1.xn--x2rw19a.space/000/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_fs1",
+    "name": "FS1",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzuJoGPwN42BUNm7bN5658_pEJrC2WpmcJpQ&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tmpzbbdj9y/out/v1/962736723a534ba294e7592fef49827b/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bahrain_sports",
+    "name": "BAHRAIN SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmMRHvdbNB2FJktGBhW5ZaEFul6fuj7KrDkA&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_oman_sport",
+    "name": "Oman Sport",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv9PXRemftthrhaZypzSt1FedNe2tJ2kNRhg&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_motorvision_tv",
+    "name": "Motorvision TV",
+    "category": "SPORTS",
+    "logoUrl": "https://motorvision.tv/wp-content/uploads/2023/09/MV_Plus_Logo_1920x1080.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=535",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_nova_sport",
+    "name": "NOVA SPORT",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Nova_Sport_1_2024.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://webtv.sk/tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_nova_sports",
+    "name": "NOVA SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nova_Sport_2_2024.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://webtv.sk/tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_slovakia:_sport",
+    "name": "SLOVAKIA: SPORT",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZgyuL2ZXIz_UUHIe4qmLxQavlz7_wx-CTQ&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://webtv.sk/tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_slovakia:_sports",
+    "name": "SLOVAKIA: SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVs9bk5KPd125dbp0JMpaqTBmZSlkVjl-2-0DVNnvNCWevrQcdFOOSlcfAUALlhMPwxfo&usqp=CAU",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "Referer": "https://webtv.sk/tv/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sportdigital_fussball_de",
+    "name": "Sportdigital Fussball DE",
+    "category": "SPORTS",
+    "logoUrl": "https://shorter.me/YVfIC",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_tnt_sports_3_((e14))",
+    "name": "TNT SPORTS 3 ((E14))",
+    "category": "SPORTS",
+    "logoUrl": "https://i.ibb.co.com/Lzkztmpw/Tntsports3.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_tnt_sports_4_((e14))",
+    "name": "TNT SPORTS 4 ((E14))",
+    "category": "SPORTS",
+    "logoUrl": "https://i.ibb.co.com/Lzkztmpw/Tntsports3.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/65ldy4ejuu/out/v1/69bc6b64f1c14e36bb21e0075a71d8ca/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_w-sports",
+    "name": "W-SPORTS",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTSCaqcY24706lMrLyVT8H35bpvwyRlTp6cQ&s",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://tglmp02.akamaized.net/out/v1/1063ebb215c14312ba9d4e415ac706d2/manifest.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_bein_sports_xtra",
+    "name": "BEIN SPORTS XTRA",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkHjYvy9kcsUjR6SO_UtFoOP13dzwZsM8tOu30oQaFYQ&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_big_12_studios",
+    "name": "Big 12 Studios",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqaNlWPd4PxFe13xZL68DR45h4OrEAJmAGFsojJjZXxw&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://d18pj8s9gbivdq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zekbh1r7qavoe/The_Big_12.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_a_spor",
+    "name": "A SPOR",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbh-h2RAxqUR--OXqLsmElk-ewZIzL_1ue6o8DHbkLVQ&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_720p.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_jtbc_golf_kr",
+    "name": "JTBC Golf KR",
+    "category": "SPORTS",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1QLRSp6XcqEwKHdbGSjpYTuAeI90NnVJzJX1Wp-8f6g&s=10",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "http://211.110.63.98/jtbc3sports1/_definst_/32E28CFC070F873F25913C79D8AAADBEAD1397047A173437D49BA1D34AEB6731/chunklist_w525103698.m3u8",
+        "drmType": null,
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_tsn",
+    "name": "TSN",
+    "category": "SPORTS",
+    "logoUrl": "https://mimipipi22.github.io/logo/png/tsn1.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 2 (Cadangan 1)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 3 (Cadangan 2)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 4 (Cadangan 3)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      },
+      {
+        "label": "Server 5 (Cadangan 4)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+        "drmType": "org.w3.clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_1_fhd",
+    "name": "SPORT 1 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/mitr07scim/out/v1/4fb1073240a549479fd2f343e6cad4ba/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sports_2_fhd",
+    "name": "SPORTS 2 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_3_fhd",
+    "name": "SPORT 3 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.pn",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_4_fhd",
+    "name": "SPORT 4 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_5_fhd",
+    "name": "SPORT 5 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_6_fhd",
+    "name": "SPORT 6 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_7_fhd",
+    "name": "SPORT 7 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_8_fhd",
+    "name": "SPORT 8 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_9_fhd",
+    "name": "SPORT 9 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tivora_sports_sport_10_fhd",
+    "name": "SPORT 10 FHD",
+    "category": "SPORTS",
+    "logoUrl": "https://www.pngitem.com/pimgs/m/20-203017_tvplay-sports-logo-hd-png-download.png",
+    "servers": [
+      {
+        "label": "Server 1 (Utama)",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "drmType": "clearkey",
+        "drmKey": null,
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
       }
     ]
