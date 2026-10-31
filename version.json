@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.1",
-  "forceUpdate": true,
-  "releaseNotes": "• Dukungan Luas Android 5.0 (Lollipop) & 6.0 (Marshmallow): Aplikasi kini dapat diinstal dengan lancar pada seluruh STB lawas (ZTE B860H V1/V2, HG680-P, dll.) tanpa kendala parse error\n• Sinkronisasi Saluran Otomatis & Dinamis via GitHub\n• Pembaruan performa, kompatibilitas, dan stabilitas navigasi TV",
+  "versionCode": 6,
+  "versionName": "1.2.2",
+  "forceUpdate": false,
+  "releaseNotes": "• Pembaruan Total Saluran TV (Indonesia, Movies, Kids, Sports) langsung dari Tivora TV dengan multi-server cadangan otomatis\n• Perbaikan pemutaran siaran Widevine DRM (RCTI, SCTV, Indosiar, MNCTV, GTV, iNews, Movies, Kids)\n• Pembersihan link rusak dan optimalisasi pergantian jalur tercepat\n• Tulisan 'TV KHUSUS WARGA PANDEAN' huruf kapital penuh",
   "apkUrl": "https://github.com/helgium23/pandean-tv-update/releases/latest/download/PandeanTV.apk"
 }
