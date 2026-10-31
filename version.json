@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "1.2.2",
+  "versionCode": 7,
+  "versionName": "1.2.3",
   "forceUpdate": false,
-  "releaseNotes": "• Pembaruan Total Saluran TV (Indonesia, Movies, Kids, Sports) langsung dari Tivora TV dengan multi-server cadangan otomatis\n• Perbaikan pemutaran siaran Widevine DRM (RCTI, SCTV, Indosiar, MNCTV, GTV, iNews, Movies, Kids)\n• Pembersihan link rusak dan optimalisasi pergantian jalur tercepat\n• Tulisan 'TV KHUSUS WARGA PANDEAN' huruf kapital penuh",
+  "releaseNotes": "• Pembaruan Total Kategori Bola & Olahraga: integrasi live feed pertandingan real-time Yacine TV / Yalla Shoot (Premier League, La Liga, Serie A, UCL, Bundesliga, dll.)\n• Tayangan pertandingan langsung sesuai jadwal dengan multi-server FHD dan dekripsi ClearKey otomatis tanpa salah tayangan\n• Sinkronisasi skor live & menit pertandingan real-time\n• Dukungan siaran langsung balap MotoGP & Formula 1 multi-server\n• Pembaruan kestabilan siaran TV Nasional & multi-server Tivora",
   "apkUrl": "https://github.com/helgium23/pandean-tv-update/releases/latest/download/PandeanTV.apk"
 }
